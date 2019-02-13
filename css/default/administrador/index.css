@@ -1,0 +1,16 @@
+/******FILEUPLOAD*************/
+.fileUpload{position:absolute;overflow:hidden;margin:0;width:5.5vw;padding:.4vw;display:inline-block;cursor:pointer;text-align:center;height:1.35vw;background:#363636;color:#FFF;border-radius:1vw}
+.fileUpload input.upload{position:absolute;top:.35vw;right:0;bottom:0;left:.2vw;margin:0;padding:0;cursor:pointer;opacity:0;filter:alpha(opacity=0);width:100%;display:inline-block;cursor:pointer}
+/**************dropdown********************************************/
+.wrapper-dropdown-3{position:relative;width: 5.5vw;margin:0 auto;padding: .15vw .6vw .5vw;background:#111;border-radius:.2vw;border:1px solid rgba(0,0,0,0.15);cursor:pointer;outline:0;color:#fff;display: inline-block;height: 1.34vw;border-radius: 2vw;}
+.wrapper-dropdown-3:after{content:"";width:0;height:0;position:absolute;right:15px;top:50%;margin-top:-3px;border-width:6px 6px 0 6px;border-style:solid;border-color:#8aa8bd transparent}
+.wrapper-dropdown-3 .dropdown{position:absolute;top: 109%;left:0;right:0;background:#111;border-radius:inherit;border:1px solid rgba(0,0,0,0.17);font-weight:normal;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;transition:all .5s ease-in;list-style:none;opacity:0;pointer-events:none;border-radius: .5vw;}
+.wrapper-dropdown-3 .dropdown:after{content:"";width:0;height:0;position:absolute;bottom: 90%;right:15px;border-width:0 6px 6px 6px;border-style:solid;border-color:#fff transparent;}
+.wrapper-dropdown-3 .dropdown:before{content:"";width:0;height:0;position:absolute;bottom:100%;right:13px;border-width:0 8px 8px 8px;border-style:solid;border-color:rgba(0,0,0,0.1) transparent;}
+.wrapper-dropdown-3 .dropdown li a{display:block;padding:.6vw;text-decoration:none;color:#fff;border-bottom:1px solid #e6e8ea;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
+.wrapper-dropdown-3 .dropdown li i{float:right;color:inherit}
+.wrapper-dropdown-3 .dropdown li:first-of-type a{border-radius:7px 7px 0 0}
+.wrapper-dropdown-3 .dropdown li:last-of-type a{border:0;border-radius:0 0 7px 7px}.wrapper-dropdown-3 .dropdown li:hover a{background: #444;color: #fff;}
+.wrapper-dropdown-3.active .dropdown{opacity:1;pointer-events:auto}
+.no-opacity .wrapper-dropdown-3 .dropdown,.no-pointerevents .wrapper-dropdown-3 .dropdown{display:none;opacity:1;pointer-events:auto}
+.no-opacity .wrapper-dropdown-3.active .dropdown,.no-pointerevents .wrapper-dropdown-3.active .dropdown{display:block}
